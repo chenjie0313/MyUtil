@@ -24,6 +24,7 @@ public class HttpUtils {
 	 * @throws IOException
 	 * @return List
 	 */
+	@SuppressWarnings("rawtypes")
 	public static List URLGet(String strUrl, Map map) throws IOException {
 		String strtTotalURL = "";
 		List result = new ArrayList();
