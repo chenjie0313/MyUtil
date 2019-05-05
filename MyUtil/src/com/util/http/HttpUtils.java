@@ -245,6 +245,6 @@ public class HttpUtils {
 
 	public static void main(String[] args) {
 		System.out.println(URLEncoder.encode("abcd1234"));
-		System.out.println();
+		System.out.println(111);
 	}
 }
